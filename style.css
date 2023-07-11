@@ -234,3 +234,14 @@ footer p {
     text-align: center;
     width: 500px;
 }
+.gift-container{
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.gift-container .para{
+    width: 350px;
+    margin: 20px 0px;
+}
