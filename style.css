@@ -35,6 +35,10 @@ header div {
     border: 3px solid rgb(229, 84, 115);
     border-radius: 10px;
 }
+.primary-btn:hover{
+    background-color: rgb(42, 6, 6);
+    transition: 1s;
+}
 .header-image {
     height: 100%;
     position: relative;
