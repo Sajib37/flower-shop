@@ -17,7 +17,7 @@ body{
 }
 nav{
     height: 10vh;
-    background-color: rgba(229, 84, 115,0.7);
+    background-color: rgba(229, 84, 115);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,15 +41,20 @@ ul li a:hover{
     color: white;
     transition: 1s;
 }
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
 .banner div {
     width: 600px;
 }
-.header-description {
+.banner-description {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.header-title {
+.banner-title {
     font-size: 70px;
     font-weight: bolder;
 }
