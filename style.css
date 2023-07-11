@@ -4,15 +4,41 @@
 }
 /* header part started */
 
-header {
-    height: 95vh;
+.banner{
+    height: 90vh;
     background-color: rgba(229, 84, 115, 0.1);
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 100px;
 }
-header div {
+nav{
+    height: 10vh;
+    background-color: rgba(229, 84, 115,0.7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+.logo{
+    font-size: 20px;
+    font-family:sans-serif;
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+ul li a:hover{
+    color: white;
+    transition: 1s;
+}
+.banner div {
     width: 600px;
 }
 .header-description {
@@ -34,6 +60,7 @@ header div {
     background-color: rgb(229, 84, 115);
     border: 3px solid rgb(229, 84, 115);
     border-radius: 10px;
+    cursor: pointer;
 }
 .primary-btn:hover{
     background-color: rgb(42, 6, 6);
