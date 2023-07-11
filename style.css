@@ -125,13 +125,15 @@ header div{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: red;
 }
 .facility div img{
     width: 80px;
 }
 .support1{
     width: 160px;
+}
+span{
+    color: red;
 }
 .discount{
     background-color: #FEF6F8;
@@ -161,4 +163,27 @@ header div{
 }
 .bouquet img{
     width: 280px;
+}
+.item-container{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.instagram{
+    font-size: 40px;
+}
+.item-container .para{
+    width: 450px;
+    text-align: center;
+    margin: 35px 0px;
+}
+.flower-image{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.image img{
+    width: 250px;
 }
