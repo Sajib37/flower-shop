@@ -107,3 +107,29 @@ header div{
 .flower3{
     background-color: #E3EBDB;
 }
+
+.facility{
+    width:80vw;
+    height: 250px;
+    background-color: #F4F4F4;
+    margin: 40px auto 100px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.support{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+}
+.facility div img{
+    width: 80px;
+}
+.support1{
+    width: 160px;
+}
