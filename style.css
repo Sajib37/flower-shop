@@ -133,3 +133,32 @@ header div{
 .support1{
     width: 160px;
 }
+.discount{
+    background-color: #FEF6F8;
+    height: 480px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.left-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    gap: 40px;
+}
+.deal-title{
+    font-size: 35px;
+}
+.left-part .para{
+    width: 450px;
+    text-align: center;
+}
+.right-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bouquet img{
+    width: 280px;
+}
