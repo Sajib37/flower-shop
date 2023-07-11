@@ -182,8 +182,27 @@ span{
 .flower-image{
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
 }
 .image img{
     width: 250px;
+}
+.latest-deals{
+    width: 70vw;
+    height: 40vh;
+    margin: auto;
+    background-image: url('./images/Rectangle\ 9.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.latest-deals input{
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
 }
